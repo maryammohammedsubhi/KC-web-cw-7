@@ -24,7 +24,7 @@ function calculate(){
 
     let bmi= BMI(weight, height);
 
-    let desc = Status(BMI);
+    let desc = Status(bmi);
 
     let div =document.getElementById("result");
 
